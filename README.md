@@ -82,6 +82,6 @@ You can run the chatbot and launch the web UI from anywhere in a terminal using 
 
 If you have an error while trying to run your chatbot, verify if Ollama server is up and running. 
 When Ollama is not running, you'll have an error similar to the one in the following screenshot. In that case, just launch Ollama. 
-![](images/Ollama error.png)
+![](images/Ollama-error.png)
 
 To automatically launch Ollama at startup, you can add it to your startup applications. This will save you time and ensure Ollama is running whenever you need it.
