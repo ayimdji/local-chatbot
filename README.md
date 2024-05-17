@@ -36,7 +36,7 @@ How to set the environment up is described in details in the [article](article l
    * You can start prompting llama3 from your terminal with `ollama run llama3:8b`
     ![](images/ollama-llama3-install.png)
 
-3. If [Python](https://www.python.org/) is not install yet, download and install it.
+3. If [Python](https://www.python.org/) is not installed yet, download and install it.
 
 4. Create and activate a python virtual environment (e.g., `localbot_env`) as described [here](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#create-and-use-virtual-environments).
 
@@ -51,7 +51,7 @@ How to set the environment up is described in details in the [article](article l
     (localbot_env) % pip install langchain, streamlit
     ```
 
-- In the `src/web-app/` folder, update the shell script `chatweb.sh` to match both the path of your python environment and the path to `chat_streamlit.py` file.
+- In the `src/web-app/` folder, update the shell script `chatweb.sh` to match both the path of your python environment and the path to `chat_streamlit.py`.
   - Replace `/path/to/your/python/env` by the actual path of your python environment 
   - Replace `/path/to/repo/folder/` by the full path of the `local-chatbot` repository you cloned. 
 
@@ -75,7 +75,7 @@ How to set the environment up is described in details in the [article](article l
     ```
 ## Running your chatbot
 
-You can run the chatbot and launch the web UI from anywhere in a terminal using its alias.
+You can run the chatbot from anywhere in a terminal using its alias. The web UI will be opened in a new tab in your default web browser.
 ```bash
 % chatweb
 ```
