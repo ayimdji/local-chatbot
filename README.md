@@ -10,7 +10,7 @@ The article introduces Large Language Models (LLMs) and breaks down the steps to
   % pip install langchain, streamlit
   % python chat.py
   ```
-- The **web-app** folder contains the fully functional web app.
+- `src/web-app` folder contains the fully functional web app.
   - The streamlit app `chat_streamlit.py`
   - The shell script to launch the app `chatweb.sh`
 
