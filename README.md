@@ -1,6 +1,6 @@
 # Local Chatbot with Streamlit GUI
 
-Code for writing your own local chatbot as described in the article [The surprisingly simple way to build your own local "ChatGPT"](article link to be added). 
+Code for writing your own local chatbot as described in the article [The surprisingly simple way to build your own local "ChatGPT"](https://numericaideas.com/blog/build-your-own-chatgpt/). 
 
 The article introduces Large Language Models (LLMs) and breaks down the steps to build a local chatbot using [Python](https://www.python.org/), [LangChain](https://www.langchain.com/), [Ollama](https://ollama.com/), an open LLM (e.g., [llama3](https://llama.meta.com/code-llama), [gemma](https://ai.google.dev/gemma)), and [Streamlit](https://streamlit.io/) for the user interface.
 
